@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter idserie</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='hind.css') }}">
+    <script src="{{ url_for('static', filename='hinda.js') }}" defer></script>
+</head>
+<body>
+    <h1>Enter idserie</h1>
+    
+    <form action="{{ url_for('result') }}" method="post">
+        <label for="idserie">idserie:</label>
+        <input type="text" id="idserie" name="idserie" required>
+        <br>
+        <input id="submit" type="submit"   value="Submit" name="submit">
+    </form>

@@ -1,0 +1,19 @@
+# Fichiers générés par Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnement virtuel Python (si vous en utilisez un)
+venv/
+
+# Fichiers spécifiques à l'éditeur/IDE (par exemple, Visual Studio Code)
+.vscode/
+
+# Fichier de variables d'environnement local
+.env
+
+
+
+# Fichiers spécifiques à Git
+.git/
