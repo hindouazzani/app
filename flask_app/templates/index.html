@@ -6,10 +6,13 @@
     <title>Ma Page</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='hind.css') }}">
     <script src="{{ url_for('static', filename='hinda.js') }}" defer></script>
+    
 </head>
 <body>
     <h1>Welcome</h1>
-    <a href="{{ url_for('analyser') }}">Analyser</a>
-    <a href="{{ url_for('dashboard') }}">Dashboard</a>
+    <div class="btn-box">
+        <a href="{{ url_for('analyser') }}" class="btn-2"> Analyser </a>
+        <a href="{{ url_for('dashboard') }}" class="btn-2">Dashboard</a>
+      </div>
 </body>
 </html>
